@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "title": "Project One",
+        "description": "Description for project one.",
+        "type": "Personal",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "title": "Project Two",
+        "description": "Description for project two.",
+        "type": "Professional",
+        "featured": true
+    },
+    {
+        "id": 3,
+        "title": "Project Three",
+        "description": "Description for project three.",
+        "type": "Academic",
+        "featured": true
+    },
+    {
+        "id": 4,
+        "title": "Project Four",
+        "description": "Description for project four.",
+        "type": "Personal",
+        "featured": true
+    },
+    {
+        "id": 5,
+        "title": "Project Five",
+        "description": "Description for project five.",
+        "type": "Professional",
+        "featured": true
+    },
+    {
+        "id": 6,
+        "title": "Project Six",
+        "description": "Description for project six.",
+        "type": "Academic",
+        "featured": false
+    }
+    // Add more projects as needed
+]
