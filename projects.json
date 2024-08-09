@@ -1,22 +1,30 @@
 [
     {
         "id": 1,
-        "title": "Project One",
-        "description": "Description for project one.",
-        "type": "Personal",
+        "title": "Land Cover Detection using Aerial Imaging",
+        "description": "Introduction\n\nIn today's digital age, the volume of image data is growing rapidly, thanks to the widespread availability of camera equipment. Teaching computers to identify objects within images holds immense potential in various fields, from healthcare to surveillance. However, automated object detection remains a challenging task for researchers.\n\nThis report focuses on land cover detection using aerial imagery, a crucial application in remote sensing. The goal was to develop machine learning algorithms to classify images into different land cover categories.\n\nThe dataset used in this project originates from the UC Merced Land Use dataset, derived from large-scale urban area imagery (Yang & Newsam, 2010). The dataset comprises 2100 RGB images, available in two resolutions, along with corresponding labels.\n\nTo classify these images, an analysis approach of implementing two classification methods for the 21 classes and comparing them was chosen. A support vector machine was implemented as well as a convolutional neural network.\n\nAccuracies of 60.95% and 81.90% were achieved by the SVM and CNN respectively. While the CNN produced a very good result, the SVM model performed significantly poorer compared to models that have been trained in other work (Cao et al., 2019; Yaşar & Utku, 2023).\n\nThis report outlines the approach, including data pre-processing, feature extraction, model selection, and evaluation. The experimental results are presented, including performance metrics and visualisations, and potential areas for improvement are discussed.",
+        "type": "Academic",
         "featured": true
-    },
+    }, 
     {
         "id": 2,
-        "title": "Project Two",
-        "description": "Description for project two.",
-        "type": "Professional",
+        "title": "Advancing Sports Coaching Through Real-Time Computer Vision",
+        "description": "Introduction\n\nIn today's digital age, the volume of image data is growing rapidly, thanks to the widespread availability of camera equipment. Teaching computers to identify objects within images holds immense potential in various fields, from healthcare to surveillance. However, automated object detection remains a challenging task for researchers.\n\nThis report focuses on land cover detection using aerial imagery, a crucial application in remote sensing. The goal was to develop machine learning algorithms to classify images into different land cover categories.\n\nThe dataset used in this project originates from the UC Merced Land Use dataset, derived from large-scale urban area imagery (Yang & Newsam, 2010). The dataset comprises 2100 RGB images, available in two resolutions, along with corresponding labels.\n\nTo classify these images, an analysis approach of implementing two classification methods for the 21 classes and comparing them was chosen. A support vector machine was implemented as well as a convolutional neural network.\n\nAccuracies of 60.95% and 81.90% were achieved by the SVM and CNN respectively. While the CNN produced a very good result, the SVM model performed significantly poorer compared to models that have been trained in other work (Cao et al., 2019; Yaşar & Utku, 2023).\n\nThis report outlines the approach, including data pre-processing, feature extraction, model selection, and evaluation. The experimental results are presented, including performance metrics and visualisations, and potential areas for improvement are discussed.",
+        "type": "Academic",
         "featured": true
     },
     {
         "id": 3,
-        "title": "Project Three",
-        "description": "Description for project three.",
+        "title": "British Airways: Data Science Job Simulation",
+        "description": ["As part of the British Airways Forage Job Simulation, I gained hands-on experience in data science roles within the airline industry. This virtual work experience program allowed me to:",
+                        
+                        "Analyse Data: I worked on real-world data sets to uncover insights and predict customer buying behaviour, enhancing my data analysis and interpretation skills.",
+                        "Problem-Solving: I tackled industry-specific challenges, developing innovative solutions and strategies to improve operational efficiency.",
+                        "Communication: I honed my communication skills by presenting findings and recommendations to a simulated team of stakeholders.",
+                        "Project Management: I managed tasks and deadlines effectively, demonstrating my ability to work independently and as part of a team.",
+                        
+                        "This experience provided me with a comprehensive understanding of how data science fits into the airline industry and equipped me with valuable skills applicable to various professional settings."
+                        ],
         "type": "Academic",
         "featured": true
     },
