@@ -38,16 +38,22 @@ h4 {
     padding: 10px 15px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    cursor: pointer;
 }
+  
+.dropdown-icon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+  
+.card-header.expanded .dropdown-icon {
+    transform: rotate(90deg); /* Down arrow */
+  }
 
 .card-link {
-    color: #ff0000; /* Red links */
+    color: #000000; /* Black links */
     text-decoration: none;
     font-weight: bold;
-}
-
-.card-link:hover {
-    color: #000; /* Black on hover */
 }
 
 .card-body {
