@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ross Usher: Project Portfolio</title>
+    <meta name="description" content="Professional Portfolio of Ross Usher">
+    <meta name="author" content="Ross Usher">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+
+          <h1 class="text-center">
+            <strong><u>Ross Usher: Project Portfolio</u></strong>
+          </h1>
+
+          <p class="text-center">
+            <a href="https://www.linkedin.com/in/rossusher/">LinkedIn</a> <strong>|</strong> ross.william.usher@gmail.com <strong>|</strong> <a href="data/Ross Usher - CV.pdf" download="Ross Usher - CV.pdf">Curriculum Vitae</a>
+          </p>
+
+          <br>
+
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./My_Projects.html">My Projects</a>
+            </li>
+          </ul>
+          
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+
+          <br>
+
+          <h3 class="text-center">
+            British Airways: Data Science
+          </h3>
+
+          <br>
+
+          <p>
+            This project was completed as part of the British Airways: Data Science job simulator provided by Forage. The job simulator is designed to give the participants tasks that simulate the work of a data scientist at British Airways. The simulator gave me valuable experience to transfer into my career and allowed me to demonstrate my skills and knowledge within data science.
+          </p>
+
+          <br>
+
+          <h4>
+            Task One
+          </h4>
+
+          <p>
+            The first task involved webscraping a website called SkyTrax to find customer reviews about British Airways. This data then had to be cleaned and used for data analysis.
+            <br>
+            For my firt stage of analysis, I used the keywords found in the reviews to produce a wordcloud. This will allow senior members of staff to easilt identify what topics are of the most importnace to their customers.
+            <br><br>
+            My second stage of analysis was to perform a sentiment analysis of each review. From this I plotted the Subjectivity (Fact/Opinion) agaisnt the Polarity (Postive/Neutral/Negative) of the reviews. 
+            <br><br>
+            Using this data, I was asked by a member of management to produce a one slide presentation that they could use in a meeting with senior members of staff.
+            <br><br>
+            The slide I produced can be seen below:
+            <br><br>
+            <img src="data/BA_Forage/Task_One.png" width="50%" height="50%">
+          </p>
+
+          <br>
+
+          <h4>
+            Task Two
+          </h4>
+
+          <p>
+            The second task invloved predicting customer buying behaviour. I was provided with a dataset from the British Airways booking system. I was asked to use this data in order to predict wether or not a cusomer would complete a booking. I was also asked to find out what factors are most significant for predicting wether or not a customer completes a booking.
+            <br><br>
+            My first task was to clean the data in preparation of training a predictive model. I started by performing one-hot encoding on all of the catergorial data. I also checked the summary statistics of the data to ensure that the data didnt contain any nonsensical entries as well as checking for any null entries.
+            <br><br>
+            Once the data was cleaned, I fitted a random forest model to the data. The reason I chose a random forest model is due to its ability to make accurate predictions whilst also allowing me to view the significant categories that influence the prediction. This would allow me to provide the senior management with the answers thet were looking for. Upon fitting the model, I achieved an average accuracy of 85% when tested using 10-Fold Cross Validation.
+            <br><br>
+            Just like the previous task, I was asked to produce a one slide presentation to present my findings to senior management.
+            <br><br> 
+            My presentation can be seen below:
+            <br><br>
+            <img src="data/BA_Forage/Task_Two.png" width="50%" height="50%">
+          </p>
+
+          <br>
+
+          <h4>
+            Summary
+          </h4>
+
+          <br>
+
+          <p>
+            In conclusion, the British Airways: Data Science job simulator provided by Forage was an extremely interesting and valuable experience. It taught me a lot about the work of a data scientist within a professional environment and allowed me to demonstrate my skills through practical, real-world experiences.
+            <br><br>
+            To view the code that I wrote in order to produce my results please use the links below.
+          </p>
+
+          <br>
+
+          <a class="btn btn-primary btn-large" href="data/BA_Forage/BA_Review_Analysis.html" target="_blank">View Notebook: Task One</a>
+          <a class="btn btn-primary btn-large" href="data/BA_Forage/BA_Customer_Data_Analysis.html" target="_blank">View Notebook: Task Two</a>
+
+          <br>
+          <br>
+          <br>
+
+          <h4>
+            Certificate
+          </h4>
+
+          <br>
+
+          <img src="data/BA_Forage/BA_Forage_Certificate.png" width="50%" height="25%">
+
+          <br>
+          <br>
+
+        </div>
+      </div>  
+    </div>
+
+  </body>
+
+</html>
